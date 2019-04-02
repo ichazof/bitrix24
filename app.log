@@ -1,0 +1,4808 @@
+
+------------------------
+2019.04.02 20:38:44
+REQUEST index.php
+Array
+(
+    [event] => ONIMCONNECTORMESSAGEADD
+    [data] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [im] => Array
+                                (
+                                    [chat_id] => 47
+                                    [message_id] => 1249
+                                )
+
+                            [message] => Array
+                                (
+                                    [user_id] => 1
+                                    [text] => [b]Илья Чазов:[/b][br] llll
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [ts] => 1554219522
+    [auth] => Array
+        (
+            [access_token] => 1290a35c003606aa0033322200000001000003d304b8d46adea2a4234d8f9517447167
+            [expires] => 1554223122
+            [expires_in] => 3600
+            [scope] => task,tasks_extended,crm,log,user,imopenlines,messageservice,entity,pull_channel,im
+            [domain] => chazof.bitrix24.ru
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [status] => L
+            [client_endpoint] => https://chazof.bitrix24.ru/rest/
+            [member_id] => 3d6dd3cc9a04514eac167d1577b7a028
+            [user_id] => 1
+            [application_token] => d8f49b4fee00abb909c6d8e23958d474
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:38:44
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.status.delivery
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [im] => Array
+                                (
+                                    [chat_id] => 47
+                                    [message_id] => 1249
+                                )
+
+                            [message] => Array
+                                (
+                                    [user_id] => 1
+                                    [text] => [b]Илья Чазов:[/b][br] llll
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 1290a35c003606aa0033322200000001000003d304b8d46adea2a4234d8f9517447167
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:38:44
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:38:44
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695327
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:38:44
+send data
+Array
+(
+    [URL] => https://api.vk.com/method/messages.send
+    [PARAMS] => Array
+        (
+            [user_id] => 265657673
+            [random_id] => 1554219524
+            [message] => [b]Илья Чазов:[/b][br] llll
+            [v] => 5.52
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:38:45
+send to vk
+Array
+(
+    [response] => 46412
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:42:02
+send data
+Array
+(
+    [URL] => https://api.vk.com/method/messages.getLongPollServer
+    [PARAMS] => Array
+        (
+            [v] => 5.52
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:42:02
+get long poll server
+Array
+(
+    [response] => Array
+        (
+            [key] => 3c692c87cbaa1fc500fdff0f95b36ab69b082f4d
+            [server] => imv4.vk.com/im2163
+            [ts] => 1774154245
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:42:02
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im2163?act=a_check&key=3c692c87cbaa1fc500fdff0f95b36ab69b082f4d&ts=1774154245&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:42:17
+long pulling answer
+Array
+(
+    [ts] => 1774154246
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 9
+                    [1] => -219646098
+                    [2] => 1
+                    [3] => 1554219437
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:43:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695327
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695327&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:01
+long pulling answer
+Array
+(
+    [ts] => 1639695374
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 3
+                    [1] => 46411
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [1] => Array
+                (
+                    [0] => 3
+                    [1] => 46410
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [2] => Array
+                (
+                    [0] => 3
+                    [1] => 46409
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [3] => Array
+                (
+                    [0] => 3
+                    [1] => 46408
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [4] => Array
+                (
+                    [0] => 3
+                    [1] => 46407
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [5] => Array
+                (
+                    [0] => 3
+                    [1] => 46406
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [6] => Array
+                (
+                    [0] => 3
+                    [1] => 46405
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [7] => Array
+                (
+                    [0] => 3
+                    [1] => 46404
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [8] => Array
+                (
+                    [0] => 6
+                    [1] => 265657673
+                    [2] => 46411
+                    [3] => 0
+                )
+
+            [9] => Array
+                (
+                    [0] => 80
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [10] => Array
+                (
+                    [0] => 4
+                    [1] => 46412
+                    [2] => 3
+                    [3] => 265657673
+                    [4] => 1554219525
+                    [5] => [b]Илья Чазов:[/b][br] llll
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [11] => Array
+                (
+                    [0] => 3
+                    [1] => 46412
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [12] => Array
+                (
+                    [0] => 7
+                    [1] => 265657673
+                    [2] => 46412
+                    [3] => 0
+                )
+
+            [13] => Array
+                (
+                    [0] => 61
+                    [1] => 265657673
+                    [2] => 1
+                )
+
+            [14] => Array
+                (
+                    [0] => 4
+                    [1] => 46413
+                    [2] => 1
+                    [3] => 265657673
+                    [4] => 1554219631
+                    [5] => Првини
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [15] => Array
+                (
+                    [0] => 80
+                    [1] => 1
+                    [2] => 0
+                )
+
+            [16] => Array
+                (
+                    [0] => 61
+                    [1] => 265657673
+                    [2] => 1
+                )
+
+            [17] => Array
+                (
+                    [0] => 4
+                    [1] => 46414
+                    [2] => 1
+                    [3] => 265657673
+                    [4] => 1554219633
+                    [5] => Ррр
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [18] => Array
+                (
+                    [0] => 61
+                    [1] => 265657673
+                    [2] => 1
+                )
+
+            [19] => Array
+                (
+                    [0] => 4
+                    [1] => 46415
+                    [2] => 1
+                    [3] => 265657673
+                    [4] => 1554219664
+                    [5] => Нн
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [20] => Array
+                (
+                    [0] => 3
+                    [1] => 46415
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [21] => Array
+                (
+                    [0] => 3
+                    [1] => 46414
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [22] => Array
+                (
+                    [0] => 3
+                    [1] => 46413
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [23] => Array
+                (
+                    [0] => 6
+                    [1] => 265657673
+                    [2] => 46415
+                    [3] => 0
+                )
+
+            [24] => Array
+                (
+                    [0] => 80
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [25] => Array
+                (
+                    [0] => 61
+                    [1] => 265657673
+                    [2] => 1
+                )
+
+            [26] => Array
+                (
+                    [0] => 4
+                    [1] => 46416
+                    [2] => 1
+                    [3] => 265657673
+                    [4] => 1554219706
+                    [5] => Рро
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [27] => Array
+                (
+                    [0] => 80
+                    [1] => 1
+                    [2] => 0
+                )
+
+            [28] => Array
+                (
+                    [0] => 61
+                    [1] => 265657673
+                    [2] => 1
+                )
+
+            [29] => Array
+                (
+                    [0] => 4
+                    [1] => 46417
+                    [2] => 1
+                    [3] => 265657673
+                    [4] => 1554219712
+                    [5] => Роо
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [30] => Array
+                (
+                    [0] => 61
+                    [1] => 265657673
+                    [2] => 1
+                )
+
+            [31] => Array
+                (
+                    [0] => 4
+                    [1] => 46418
+                    [2] => 1
+                    [3] => 265657673
+                    [4] => 1554219736
+                    [5] => Рнн
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [32] => Array
+                (
+                    [0] => 61
+                    [1] => 265657673
+                    [2] => 1
+                )
+
+            [33] => Array
+                (
+                    [0] => 4
+                    [1] => 46419
+                    [2] => 1
+                    [3] => 265657673
+                    [4] => 1554219753
+                    [5] => Щшш
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [34] => Array
+                (
+                    [0] => 3
+                    [1] => 46419
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [35] => Array
+                (
+                    [0] => 3
+                    [1] => 46418
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [36] => Array
+                (
+                    [0] => 3
+                    [1] => 46417
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [37] => Array
+                (
+                    [0] => 3
+                    [1] => 46416
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [38] => Array
+                (
+                    [0] => 6
+                    [1] => 265657673
+                    [2] => 46419
+                    [3] => 0
+                )
+
+            [39] => Array
+                (
+                    [0] => 80
+                    [1] => 0
+                    [2] => 0
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:43:01
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:43:02
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554219525
+                                    [text] => [b]Илья Чазов:[/b][br] llll
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:02
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => [b]Илья Чазов:[/b][br] llll
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554219782.3947
+            [finish] => 1554219782.882
+            [duration] => 0.48727297782898
+            [processing] => 0.45818519592285
+            [date_start] => 2019-04-02T18:43:02+03:00
+            [date_finish] => 2019-04-02T18:43:02+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:03
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554219631
+                                    [text] => Првини
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:03
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => Првини
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554219783.3732
+            [finish] => 1554219783.833
+            [duration] => 0.45970797538757
+            [processing] => 0.4359769821167
+            [date_start] => 2019-04-02T18:43:03+03:00
+            [date_finish] => 2019-04-02T18:43:03+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:04
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554219633
+                                    [text] => Ррр
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:04
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => Ррр
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554219784.2991
+            [finish] => 1554219784.6915
+            [duration] => 0.39247894287109
+            [processing] => 0.35990595817566
+            [date_start] => 2019-04-02T18:43:04+03:00
+            [date_finish] => 2019-04-02T18:43:04+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:04
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554219664
+                                    [text] => Нн
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:05
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => Нн
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554219785.1716
+            [finish] => 1554219785.6066
+            [duration] => 0.43492698669434
+            [processing] => 0.40665984153748
+            [date_start] => 2019-04-02T18:43:05+03:00
+            [date_finish] => 2019-04-02T18:43:05+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:05
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554219706
+                                    [text] => Рро
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:06
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => Рро
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554219786.0592
+            [finish] => 1554219786.5478
+            [duration] => 0.48864603042603
+            [processing] => 0.46352005004883
+            [date_start] => 2019-04-02T18:43:06+03:00
+            [date_finish] => 2019-04-02T18:43:06+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:06
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554219712
+                                    [text] => Роо
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:07
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => Роо
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554219786.9948
+            [finish] => 1554219787.5083
+            [duration] => 0.51350712776184
+            [processing] => 0.48727679252625
+            [date_start] => 2019-04-02T18:43:06+03:00
+            [date_finish] => 2019-04-02T18:43:07+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:07
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554219736
+                                    [text] => Рнн
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:08
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => Рнн
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554219787.9762
+            [finish] => 1554219788.4611
+            [duration] => 0.48491096496582
+            [processing] => 0.44484710693359
+            [date_start] => 2019-04-02T18:43:07+03:00
+            [date_finish] => 2019-04-02T18:43:08+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:08
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554219753
+                                    [text] => Щшш
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:09
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => Щшш
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554219788.9464
+            [finish] => 1554219789.4168
+            [duration] => 0.47046995162964
+            [processing] => 0.43131303787231
+            [date_start] => 2019-04-02T18:43:08+03:00
+            [date_finish] => 2019-04-02T18:43:09+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:31
+REQUEST index.php
+Array
+(
+    [event] => ONIMCONNECTORMESSAGEADD
+    [data] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [im] => Array
+                                (
+                                    [chat_id] => 47
+                                    [message_id] => 1269
+                                )
+
+                            [message] => Array
+                                (
+                                    [user_id] => 1
+                                    [text] => [b]Илья Чазов:[/b][br] rheb
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [ts] => 1554219810
+    [auth] => Array
+        (
+            [access_token] => 3291a35c003606aa00333222000000010000038166366d6df9016f4e3f05e3ee698ede
+            [expires] => 1554223410
+            [expires_in] => 3600
+            [scope] => task,tasks_extended,crm,log,user,imopenlines,messageservice,entity,pull_channel,im
+            [domain] => chazof.bitrix24.ru
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [status] => L
+            [client_endpoint] => https://chazof.bitrix24.ru/rest/
+            [member_id] => 3d6dd3cc9a04514eac167d1577b7a028
+            [user_id] => 1
+            [application_token] => d8f49b4fee00abb909c6d8e23958d474
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:31
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.status.delivery
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [im] => Array
+                                (
+                                    [chat_id] => 47
+                                    [message_id] => 1269
+                                )
+
+                            [message] => Array
+                                (
+                                    [user_id] => 1
+                                    [text] => [b]Илья Чазов:[/b][br] rheb
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 3291a35c003606aa00333222000000010000038166366d6df9016f4e3f05e3ee698ede
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:32
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:43:32
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695374
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:32
+send data
+Array
+(
+    [URL] => https://api.vk.com/method/messages.send
+    [PARAMS] => Array
+        (
+            [user_id] => 265657673
+            [random_id] => 1554219812
+            [message] => [b]Илья Чазов:[/b][br] rheb
+            [v] => 5.52
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:43:32
+send to vk
+Array
+(
+    [response] => 46420
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:44:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695374
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695374&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:01
+long pulling answer
+Array
+(
+    [ts] => 1639695381
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 4
+                    [1] => 46420
+                    [2] => 3
+                    [3] => 265657673
+                    [4] => 1554219812
+                    [5] => [b]Илья Чазов:[/b][br] rheb
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [0] => 3
+                    [1] => 46420
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [2] => Array
+                (
+                    [0] => 7
+                    [1] => 265657673
+                    [2] => 46420
+                    [3] => 0
+                )
+
+            [3] => Array
+                (
+                    [0] => 61
+                    [1] => 265657673
+                    [2] => 1
+                )
+
+            [4] => Array
+                (
+                    [0] => 4
+                    [1] => 46421
+                    [2] => 1
+                    [3] => 265657673
+                    [4] => 1554219815
+                    [5] => Ррпп
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [0] => 80
+                    [1] => 1
+                    [2] => 0
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:44:01
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:44:02
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554219812
+                                    [text] => [b]Илья Чазов:[/b][br] rheb
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:02
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => [b]Илья Чазов:[/b][br] rheb
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554219842.4381
+            [finish] => 1554219842.8312
+            [duration] => 0.39316201210022
+            [processing] => 0.36145401000977
+            [date_start] => 2019-04-02T18:44:02+03:00
+            [date_finish] => 2019-04-02T18:44:02+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:03
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554219815
+                                    [text] => Ррпп
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:03
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => Ррпп
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554219843.3149
+            [finish] => 1554219843.7178
+            [duration] => 0.40284609794617
+            [processing] => 0.37465596199036
+            [date_start] => 2019-04-02T18:44:03+03:00
+            [date_finish] => 2019-04-02T18:44:03+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:17
+REQUEST index.php
+Array
+(
+    [event] => ONIMCONNECTORMESSAGEADD
+    [data] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [im] => Array
+                                (
+                                    [chat_id] => 47
+                                    [message_id] => 1275
+                                )
+
+                            [message] => Array
+                                (
+                                    [user_id] => 1
+                                    [text] => [b]Илья Чазов:[/b][br] Норм
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [ts] => 1554219855
+    [auth] => Array
+        (
+            [access_token] => 5f91a35c003606aa0033322200000001000003d9146470820c89f4c8c5dd28ae92f4a1
+            [expires] => 1554223455
+            [expires_in] => 3600
+            [scope] => task,tasks_extended,crm,log,user,imopenlines,messageservice,entity,pull_channel,im
+            [domain] => chazof.bitrix24.ru
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [status] => L
+            [client_endpoint] => https://chazof.bitrix24.ru/rest/
+            [member_id] => 3d6dd3cc9a04514eac167d1577b7a028
+            [user_id] => 1
+            [application_token] => d8f49b4fee00abb909c6d8e23958d474
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:17
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.status.delivery
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [im] => Array
+                                (
+                                    [chat_id] => 47
+                                    [message_id] => 1275
+                                )
+
+                            [message] => Array
+                                (
+                                    [user_id] => 1
+                                    [text] => [b]Илья Чазов:[/b][br] Норм
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 5f91a35c003606aa0033322200000001000003d9146470820c89f4c8c5dd28ae92f4a1
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:17
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:44:17
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695381
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:17
+send data
+Array
+(
+    [URL] => https://api.vk.com/method/messages.send
+    [PARAMS] => Array
+        (
+            [user_id] => 265657673
+            [random_id] => 1554219857
+            [message] => [b]Илья Чазов:[/b][br] Норм
+            [v] => 5.52
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:44:17
+send to vk
+Array
+(
+    [response] => 46422
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:45:02
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:45:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:45:02
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695381
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:45:02
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695381&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:45:02
+long pulling answer
+Array
+(
+    [ts] => 1639695391
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 3
+                    [1] => 46421
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [1] => Array
+                (
+                    [0] => 6
+                    [1] => 265657673
+                    [2] => 46421
+                    [3] => 1
+                )
+
+            [2] => Array
+                (
+                    [0] => 80
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [3] => Array
+                (
+                    [0] => 4
+                    [1] => 46422
+                    [2] => 3
+                    [3] => 265657673
+                    [4] => 1554219857
+                    [5] => [b]Илья Чазов:[/b][br] Норм
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [0] => 3
+                    [1] => 46422
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [5] => Array
+                (
+                    [0] => 7
+                    [1] => 265657673
+                    [2] => 46422
+                    [3] => 0
+                )
+
+            [6] => Array
+                (
+                    [0] => 61
+                    [1] => 265657673
+                    [2] => 1
+                )
+
+            [7] => Array
+                (
+                    [0] => 4
+                    [1] => 46423
+                    [2] => 1
+                    [3] => 265657673
+                    [4] => 1554219864
+                    [5] => Ок
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [0] => 80
+                    [1] => 1
+                    [2] => 0
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:45:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:45:02
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:45:02
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554219857
+                                    [text] => [b]Илья Чазов:[/b][br] Норм
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:45:03
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => [b]Илья Чазов:[/b][br] Норм
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554219903.1376
+            [finish] => 1554219903.5307
+            [duration] => 0.39314818382263
+            [processing] => 0.37078499794006
+            [date_start] => 2019-04-02T18:45:03+03:00
+            [date_finish] => 2019-04-02T18:45:03+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:45:03
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554219864
+                                    [text] => Ок
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:45:04
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => Ок
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554219903.9908
+            [finish] => 1554219904.3796
+            [duration] => 0.38882899284363
+            [processing] => 0.35628819465637
+            [date_start] => 2019-04-02T18:45:03+03:00
+            [date_finish] => 2019-04-02T18:45:04+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:46:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:46:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:46:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695391
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:46:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695391&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:46:26
+long pulling answer
+Array
+(
+    [ts] => 1639695391
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:46:26
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:46:26
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:47:02
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:47:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:47:02
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695391
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:47:02
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695391&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:47:27
+long pulling answer
+Array
+(
+    [ts] => 1639695391
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:47:27
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:47:27
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:48:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:48:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:48:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695391
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:48:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695391&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:48:14
+long pulling answer
+Array
+(
+    [ts] => 1639695394
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 3
+                    [1] => 46423
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [1] => Array
+                (
+                    [0] => 6
+                    [1] => 265657673
+                    [2] => 46423
+                    [3] => 0
+                )
+
+            [2] => Array
+                (
+                    [0] => 80
+                    [1] => 0
+                    [2] => 0
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:48:14
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:48:14
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:49:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:49:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:49:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695394
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:49:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695394&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:49:26
+long pulling answer
+Array
+(
+    [ts] => 1639695394
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:49:26
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:49:26
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:50:02
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:50:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:50:02
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695394
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:50:02
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695394&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:50:27
+long pulling answer
+Array
+(
+    [ts] => 1639695394
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:50:27
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:50:27
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:51:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:51:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:51:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695394
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:51:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695394&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:51:27
+long pulling answer
+Array
+(
+    [ts] => 1639695394
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:51:27
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:51:27
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:52:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:52:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:52:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695394
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:52:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695394&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:52:07
+REQUEST index.php
+Array
+(
+    [event] => ONIMCONNECTORMESSAGEADD
+    [data] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [im] => Array
+                                (
+                                    [chat_id] => 47
+                                    [message_id] => 1281
+                                )
+
+                            [message] => Array
+                                (
+                                    [user_id] => 1
+                                    [text] => [b]Илья Чазов:[/b][br] привет
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [ts] => 1554220326
+    [auth] => Array
+        (
+            [access_token] => 3693a35c003606aa00333222000000010000035b1f7f997bae164d545068ede1fe82c1
+            [expires] => 1554223926
+            [expires_in] => 3600
+            [scope] => task,tasks_extended,crm,log,user,imopenlines,messageservice,entity,pull_channel,im
+            [domain] => chazof.bitrix24.ru
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [status] => L
+            [client_endpoint] => https://chazof.bitrix24.ru/rest/
+            [member_id] => 3d6dd3cc9a04514eac167d1577b7a028
+            [user_id] => 1
+            [application_token] => d8f49b4fee00abb909c6d8e23958d474
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:52:07
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.status.delivery
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [im] => Array
+                                (
+                                    [chat_id] => 47
+                                    [message_id] => 1281
+                                )
+
+                            [message] => Array
+                                (
+                                    [user_id] => 1
+                                    [text] => [b]Илья Чазов:[/b][br] привет
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 3693a35c003606aa00333222000000010000035b1f7f997bae164d545068ede1fe82c1
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:52:08
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:52:08
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695394
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:52:08
+send data
+Array
+(
+    [URL] => https://api.vk.com/method/messages.send
+    [PARAMS] => Array
+        (
+            [user_id] => 265657673
+            [random_id] => 1554220328
+            [message] => [b]Илья Чазов:[/b][br] привет
+            [v] => 5.52
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:52:08
+send to vk
+Array
+(
+    [response] => 46424
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:52:08
+long pulling answer
+Array
+(
+    [ts] => 1639695395
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 4
+                    [1] => 46424
+                    [2] => 3
+                    [3] => 265657673
+                    [4] => 1554220328
+                    [5] => [b]Илья Чазов:[/b][br] привет
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:52:08
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:52:08
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:53:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:53:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:53:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695395
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:53:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695395&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:53:02
+long pulling answer
+Array
+(
+    [ts] => 1639695403
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 3
+                    [1] => 46424
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [1] => Array
+                (
+                    [0] => 7
+                    [1] => 265657673
+                    [2] => 46424
+                    [3] => 0
+                )
+
+            [2] => Array
+                (
+                    [0] => 61
+                    [1] => 265657673
+                    [2] => 1
+                )
+
+            [3] => Array
+                (
+                    [0] => 4
+                    [1] => 46425
+                    [2] => 1
+                    [3] => 265657673
+                    [4] => 1554220336
+                    [5] => Привет
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [0] => 80
+                    [1] => 1
+                    [2] => 0
+                )
+
+            [5] => Array
+                (
+                    [0] => 61
+                    [1] => 265657673
+                    [2] => 1
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:53:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:53:02
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:53:02
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554220336
+                                    [text] => Привет
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:53:02
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => Привет
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554220382.4834
+            [finish] => 1554220382.8812
+            [duration] => 0.39776015281677
+            [processing] => 0.37312602996826
+            [date_start] => 2019-04-02T18:53:02+03:00
+            [date_finish] => 2019-04-02T18:53:02+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:53:15
+REQUEST index.php
+Array
+(
+    [event] => ONIMCONNECTORMESSAGEADD
+    [data] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [im] => Array
+                                (
+                                    [chat_id] => 47
+                                    [message_id] => 1285
+                                )
+
+                            [message] => Array
+                                (
+                                    [user_id] => 1
+                                    [text] => [b]Илья Чазов:[/b][br] Норм
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [ts] => 1554220393
+    [auth] => Array
+        (
+            [access_token] => 7993a35c003606aa00333222000000010000033cc6b8119c5cedcd7b971780a93976cb
+            [expires] => 1554223993
+            [expires_in] => 3600
+            [scope] => task,tasks_extended,crm,log,user,imopenlines,messageservice,entity,pull_channel,im
+            [domain] => chazof.bitrix24.ru
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [status] => L
+            [client_endpoint] => https://chazof.bitrix24.ru/rest/
+            [member_id] => 3d6dd3cc9a04514eac167d1577b7a028
+            [user_id] => 1
+            [application_token] => d8f49b4fee00abb909c6d8e23958d474
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:53:15
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.status.delivery
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [im] => Array
+                                (
+                                    [chat_id] => 47
+                                    [message_id] => 1285
+                                )
+
+                            [message] => Array
+                                (
+                                    [user_id] => 1
+                                    [text] => [b]Илья Чазов:[/b][br] Норм
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 7993a35c003606aa00333222000000010000033cc6b8119c5cedcd7b971780a93976cb
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:53:15
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:53:15
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695403
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:53:15
+send data
+Array
+(
+    [URL] => https://api.vk.com/method/messages.send
+    [PARAMS] => Array
+        (
+            [user_id] => 265657673
+            [random_id] => 1554220395
+            [message] => [b]Илья Чазов:[/b][br] Норм
+            [v] => 5.52
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:53:15
+send to vk
+Array
+(
+    [response] => 46427
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:54:02
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:54:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:54:02
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695403
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:54:02
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695403&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:54:02
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 4
+                    [1] => 46426
+                    [2] => 1
+                    [3] => 265657673
+                    [4] => 1554220387
+                    [5] => Что хочешь
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [0] => 3
+                    [1] => 46426
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [2] => Array
+                (
+                    [0] => 3
+                    [1] => 46425
+                    [2] => 1
+                    [3] => 265657673
+                )
+
+            [3] => Array
+                (
+                    [0] => 6
+                    [1] => 265657673
+                    [2] => 46426
+                    [3] => 0
+                )
+
+            [4] => Array
+                (
+                    [0] => 80
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [5] => Array
+                (
+                    [0] => 4
+                    [1] => 46427
+                    [2] => 3
+                    [3] => 265657673
+                    [4] => 1554220395
+                    [5] => [b]Илья Чазов:[/b][br] Норм
+                    [6] => Array
+                        (
+                            [title] =>  ... 
+                        )
+
+                    [7] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:54:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:54:02
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:54:02
+send data
+Array
+(
+    [URL] => https://chazof.bitrix24.ru/rest/imconnector.send.messages
+    [PARAMS] => Array
+        (
+            [CONNECTOR] => my_open_lines_ilya_chazof
+            [LINE] => 2
+            [MESSAGES] => Array
+                (
+                    [0] => Array
+                        (
+                            [user] => Array
+                                (
+                                    [id] => 265657673
+                                    [last_name] => Кузнецов
+                                    [name] => Илья
+                                )
+
+                            [message] => Array
+                                (
+                                    [id] => l
+                                    [date] => 1554220387
+                                    [text] => Что хочешь
+                                )
+
+                            [chat] => Array
+                                (
+                                    [id] => 265657673
+                                )
+
+                        )
+
+                )
+
+            [auth] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:54:03
+send message to open lines
+Array
+(
+    [result] => Array
+        (
+            [SUCCESS] => 1
+            [DATA] => Array
+                (
+                    [RESULT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [user] => 37
+                                    [message] => Array
+                                        (
+                                            [id] => l
+                                            [date] => Array
+                                                (
+                                                )
+
+                                            [text] => Что хочешь
+                                        )
+
+                                    [chat] => Array
+                                        (
+                                            [id] => 265657673
+                                        )
+
+                                    [type_message] => message
+                                    [SUCCESS] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1554220442.7861
+            [finish] => 1554220443.2756
+            [duration] => 0.48952198028564
+            [processing] => 0.4542248249054
+            [date_start] => 2019-04-02T18:54:02+03:00
+            [date_finish] => 2019-04-02T18:54:03+03:00
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:55:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:55:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:55:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 7f3ce5b3657907b98c15343cb5221e37887c8928
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:55:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=7f3ce5b3657907b98c15343cb5221e37887c8928&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:55:02
+long pulling answer
+Array
+(
+    [failed] => 2
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:55:02
+send data
+Array
+(
+    [URL] => https://api.vk.com/method/messages.getLongPollServer
+    [PARAMS] => Array
+        (
+            [v] => 5.92
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:55:02
+get long poll server
+Array
+(
+    [response] => Array
+        (
+            [key] => 9699b12d74affab513e01163e69fafe596c5b397
+            [server] => imv4.vk.com/im3823
+            [ts] => 1639695409
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:55:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:55:02
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:56:02
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:56:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:56:02
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:56:02
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:56:27
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:56:27
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:56:27
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:57:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:57:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:57:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:57:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:57:26
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:57:26
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:57:26
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:58:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:58:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:58:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:58:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:58:27
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:58:27
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:58:27
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 20:59:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:59:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:59:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:59:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:59:26
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 20:59:26
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 20:59:26
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 21:00:02
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:00:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:00:02
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:00:02
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:00:27
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:00:27
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:00:27
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 21:01:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:01:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:01:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:01:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:01:26
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:01:26
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:01:26
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 21:02:02
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:02:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:02:02
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:02:02
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:02:27
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:02:27
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:02:27
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 21:03:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:03:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:03:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:03:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:03:26
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:03:26
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:03:26
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 21:04:02
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:04:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:04:02
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:04:02
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:04:27
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:04:27
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:04:27
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 21:05:02
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:05:02
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:05:02
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:05:02
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:05:27
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:05:27
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:05:27
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 21:06:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:06:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:06:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:06:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:06:26
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:06:26
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:06:26
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 21:07:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:07:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:07:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:07:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:07:27
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:07:27
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:07:27
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 21:08:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:08:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:08:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:08:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:08:26
+long pulling answer
+Array
+(
+    [ts] => 1639695409
+    [updates] => Array
+        (
+        )
+
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:08:26
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:08:26
+Данные из БД
+
+------------------------
+
+------------------------
+2019.04.02 21:09:01
+vk.php start
+Array
+(
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:09:01
+Соединение с MySQL установлено!
+Localhost via UNIX socket
+------------------------
+
+------------------------
+2019.04.02 21:09:01
+Данные из БД
+Array
+(
+    [id] => 17
+    [access_token] => 6587a35c003606aa0033322200000001201c03944c1b8c68483d76ab3845d344fa7477
+    [refresh_token] => 5506cb5c003606aa0033322200000001201c037d7164be9adbdea2ccbed25313ca961f
+    [client_endpoint] => https://chazof.bitrix24.ru/rest/
+    [vk_token] => 20d852642e25766f156434530a63ee85bca272f3c70814f6fdd72e465dc6525db6e0c992887c7d17475cd
+    [vk_key] => 9699b12d74affab513e01163e69fafe596c5b397
+    [vk_server] => imv4.vk.com/im3823
+    [vk_ts] => 1639695409
+    [app_id] => local.5c61c59e0d00b1.26243302
+    [app_secret] => 3uWjRvLR34udcfTaqKMiuAMwg4dRNDVyKwtOxk9O7HwKoNn6Xo
+)
+
+------------------------
+
+------------------------
+2019.04.02 21:09:01
+send data
+Array
+(
+    [URL] => https://imv4.vk.com/im3823?act=a_check&key=9699b12d74affab513e01163e69fafe596c5b397&ts=1639695409&wait=25&mode=2&version=3
+)
+
+------------------------
